@@ -1,6 +1,6 @@
 # Flame Fractal in Cuda
 
-wrote by billio\_r and legoua\_g 
+wrote by billio\_r and legoua\_g (2017)
 ## Abstract
 
 Fractals are really interesting objects that can make beautiful image.
