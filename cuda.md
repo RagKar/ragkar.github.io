@@ -37,14 +37,14 @@ by density.
 
 A fractal flame is define by a set of flame functions `Fj`.
 
-![Image](https://ragkar.github.io/flamefunction-set.svg)
+![Image](cuda-dir/flamefunction-set.svg)
 
 Each flame function `Fj` is a sum of weighted variations (a list
 of the 48 variations can found in the appendix of [flam3 paper](http://www.flam3.com/flame_draves.pdf)
 .) These variations are non-linear (_point 1_) and use with an affine
 transform.
 
-![Image](https://ragkar.github.io/flamefunction-def.svg)
+![Image](cuda-dir/flamefunction-def.svg)
 
 Moreover, the flame functions contain a color and a probability.
 
@@ -287,7 +287,7 @@ Number of iteration | GPU time| CPU time
 We can see that the CPU time is nearly linear with the number of
 iteration and that absolutely not the case of the GPU.
 
-![Image](time-iteration.png)
+![Image](cuda-dir/time-iteration.png)
 
 Here the y axis is scaled to log.
 
@@ -304,21 +304,21 @@ on Wikipedia.
 
 ## Appendix A: Variation of Sierpinski triangle
 
-![Image](https://ragkar.github.io/sierpinski/fractal_0.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_1.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_2.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_3.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_4.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_5.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_6.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_7.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_8.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_9.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_10.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_11.png)
-![Image](https://ragkar.github.io/sierpinski/fractal_12.png)
+![Image](cuda-dir/sierpinski/fractal_0.png)
+![Image](cuda-dir/sierpinski/fractal_1.png)
+![Image](cuda-dir/sierpinski/fractal_2.png)
+![Image](cuda-dir/sierpinski/fractal_3.png)
+![Image](cuda-dir/sierpinski/fractal_4.png)
+![Image](cuda-dir/sierpinski/fractal_5.png)
+![Image](cuda-dir/sierpinski/fractal_6.png)
+![Image](cuda-dir/sierpinski/fractal_7.png)
+![Image](cuda-dir/sierpinski/fractal_8.png)
+![Image](cuda-dir/sierpinski/fractal_9.png)
+![Image](cuda-dir/sierpinski/fractal_10.png)
+![Image](cuda-dir/sierpinski/fractal_11.png)
+![Image](cuda-dir/sierpinski/fractal_12.png)
 
 ## Appendix B: Misc
 
-![Image](https://ragkar.github.io/misc/fractal_0.png)
-![Image](https://ragkar.github.io/misc/fractal_1.png)
+![Image](cuda-dir/misc/fractal_0.png)
+![Image](cuda-dir/misc/fractal_1.png)
